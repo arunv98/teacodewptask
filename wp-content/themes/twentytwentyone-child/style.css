@@ -1,0 +1,33 @@
+/* 
+Theme Name: Twenty Twenty-One Child 
+Theme URL: https://wordpress.org/themes/twentytwentyone/
+Description: Twenty Twenty-One Child 
+Theme Author: WordPress team 
+Author URL: https://wordpress.org/
+Template: twentytwentyone
+Version: 1.0.0 
+Text Domain: twentytwentyone-child 
+*/
+
+.site-content {
+    max-width: var(--responsive--alignwide-width);
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    row-gap: var(--global--spacing-vertical);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left_contetnt{
+    
+    width: 40%;
+    float: left;
+}
+
+.right_content{
+    
+   width: 60%; 
+   float: left;
+   padding-left: 25px;
+}
